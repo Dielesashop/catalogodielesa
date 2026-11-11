@@ -1,0 +1,38 @@
+# Dependencias
+/node_modules
+/.pnp
+.pnp.js
+
+# Compilación y producción de Next.js
+/.next/
+/out/
+/build
+/dist
+
+# Archivos de entorno (Seguridad)
+# Ignora todos los .env que contienen claves reales, pero permite .env.example
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs (depuración)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vercel (si despliegas ahí)
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# Basura del Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Editores (opcional, pero recomendado para evitar subir tus configuraciones)
+.vscode/
+.idea/
